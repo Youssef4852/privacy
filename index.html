@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title id="pageTitle" data-ar="In Vision - سياسة الخصوصية">In Vision - Privacy Policy</title>
+    <link rel="icon" type="image/png" href="logo background.png">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #202020;
+            color: #fff;
+        }
+
+        header {
+            background-color: #202020;
+            color: white;
+            padding: 20px;
+            margin-right: 30px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo-container img {
+            height: 50px;
+            opacity: 0;
+        }
+         .logo-container{
+        margin-left: 550px;
+        }
+        .language-selector {
+            position: relative;
+            display: inline-block;
+        }
+
+        .language-icon {
+            position: relative;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+        }
+
+        .language-icon:hover {
+            color: #ff0051;
+        }
+
+        .language-icon i {
+            margin-right: 5px;
+        }
+
+        .language-dropdown {
+            position: absolute;
+            top: 10px;
+            left: -19px;
+            right: auto;
+            list-style: none;
+            border-radius: 5px;
+            display: none;
+            padding: 1px 1px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+            z-index: 1;
+            background: #9900ff;
+        }
+
+        .language-dropdown:hover {
+            background: #ff0051;
+            transform: scale(1.01);
+        }
+
+        .language-dropdown li {
+            font-size: 15px;
+            padding: 10px 20px;
+            color: #fff;
+            cursor: pointer;
+            transition: background-color 0.2s ease-in-out;
+        }
+
+        .language-dropdown.show {
+            display: block;
+        }
+
+        section.content {
+            padding: 40px 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+            background-color: #333;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            color: #fff;
+            font-size: 2em;
+            margin-bottom: 20px;
+           
+        }
+
+        .terms-item {
+            margin-bottom: 30px;
+        }
+
+        .terms-item h3 {
+            font-size: 1.5em;
+            color: #9900ff;
+            cursor: pointer;
+            margin: 0;
+            transition: color 0.3s ease;
+        }
+
+        .terms-item h3:hover {
+            color: #ff0051;
+        }
+
+        .terms-item p {
+            font-size: 1.1em;
+            line-height: 1.8;
+            margin-top: 10px;
+            color: #fff;
+        }
+
+        footer {
+            background-color: #202020;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            font-size: 1em;
+        }
+
+        footer a {
+            color: #ffffff;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+       
+
+        .return-home {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background: linear-gradient(90deg, #9900ff, #ff0051);
+            color: white !important;
+            padding: 10px 20px;
+            border-radius: 50px;
+            text-align: center;
+            font-size: 16px;
+            text-decoration: none;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+            transition: background 0.3s ease, transform 0.2s ease;
+        }
+
+        .return-home:hover {
+           
+            color: #fff !important;
+            transform: scale(1.05);
+        }
+
+        ::-webkit-scrollbar {
+            width: 8px;
+            background-color: #333;
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background-color: #9900ff;
+            border-radius: 10px;
+        }
+
+        ::-webkit-scrollbar-thumb:hover {
+            background-color: #ff0051;
+        }
+     
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="logo-container">
+            <h1 id="pageTitle" data-ar="سياسة الخصوصية">Privacy Policy</h1>
+        </div>
+        <div class="language-selector">
+            <div class="language-icon" id="languageIcon">
+                <i class="fas fa-globe"></i>
+                <i class="fas fa-chevron-down"></i>
+            </div>
+            <ul class="language-dropdown" id="languageDropdown">
+                <li id="langArabic" class="active">العربية</li>
+                <li id="langEnglish" style="display:none;">English</li>
+                
+            </ul>
+        </div>
+    </header>
+
+    <section class="content">
+        <h2 id="privacyTitle" data-ar="In Vision سياسة الخصوصية لـ">Privacy Policy for InVision</h2>
+
+        <!-- Privacy Policy Items -->
+        <div class="terms-item">
+            <h3 id="introTitle" data-ar="مقدمة">Introduction</h3>
+            <p id="introContent" data-ar="تحدد سياسة الخصوصية هذه كيفية جمع InVision واستخدام وحماية معلوماتك الشخصية. باستخدامك لـ InVision، فإنك توافق على شروط سياسة الخصوصية هذه. نحن نأخذ خصوصيتك على محمل الجد ونلتزم بحماية بياناتك الشخصية. تشرح هذه السياسة أنواع المعلومات التي نجمعها، وكيفية استخدامها، وكيف نضمن حمايتها لضمان خصوصيتك. نحن نعتقد أن ثقتك مهمة، ونسعى لتوفير الشفافية بشأن ممارساتنا في التعامل مع البيانات.
+
+            نقوم بجمع أنواع مختلفة من المعلومات، بما في ذلك التفاصيل الشخصية مثل اسمك، وعنوان بريدك الإلكتروني، وبيانات الاستخدام، مما يساعدنا في تحسين خدماتنا وخلق تجربة مخصصة للمستخدم. بينما نسعى دائمًا لتحسين جودة خدماتنا، نتأكد من أن بياناتك الشخصية تتم معالجتها بأعلى مستوى من العناية.
+            
+            هدفنا هو إطلاعك على نوع المعلومات التي نجمعها وكيفية استخدامها. كما تشرح سياسة الخصوصية هذه حقوقك المتعلقة بالبيانات التي نجمعها والخطوات التي نتخذها لحماية خصوصيتك.">
+                This privacy policy outlines how InVision collects, uses, and protects your personal information. By using InVision, you agree to the terms of this privacy policy. We take your privacy seriously and are committed to protecting your personal data. This policy explains the types of information we collect, how we use it, and how we safeguard it to ensure your privacy. We believe that your trust is important, and we aim to provide transparency regarding our data handling practices.
+
+We collect various types of information, including personal details such as your name, email, and usage data, which helps us improve our services and create a more personalized user experience. As we constantly strive to enhance the quality of our service, we make sure that your personal data is treated with the highest level of care.
+
+Our goal is to inform you about the kind of information we collect and how it may be used. This privacy policy also explains your rights regarding the data we collect and the steps we take to protect your privacy.
+            </p>
+        </div>
+
+        <div class="terms-item">
+            <h3 id="dataCollectionTitle" data-ar="جمع البيانات">Data Collection</h3>
+            <p id="dataCollectionContent" data-ar="نقوم بجمع معلومات شخصية منك عندما تستخدم خدماتنا، بما في ذلك اسمك، وعنوان بريدك الإلكتروني، وعنوان الـ IP، وبيانات الاستخدام. يساعدنا ذلك في تحسين خدماتنا وتقديم تجربة أفضل. على سبيل المثال، تتيح لنا البيانات التي نجمعها تتبع أنماط الاستخدام الخاصة بك وجعل موقعنا أكثر سهولة في الاستخدام من خلال تحسين أوقات التحميل وتنسيق الصفحة.
+
+            قد تشمل المعلومات التي نجمعها أيضًا بيانات غير شخصية، مثل نوع المتصفح، ومعلومات الجهاز، والوقت الذي تقضيه على منصتنا. تسمح لنا هذه البيانات بحل أي مشكلات تقنية، وتحسين وظائف الموقع، وتخصيص محتوى الموقع بشكل أفضل ليتناسب مع احتياجاتك. نحن نجمع هذه البيانات تلقائيًا من خلال ملفات تعريف الارتباط والتقنيات المتابعة المشابهة.
+            
+            في بعض الحالات، قد تقدم لنا معلومات إضافية طواعية، مثل الملاحظات أو الردود على الاستبيانات. تساعدنا هذه البيانات في تحسين خدمة العملاء وزيادة رضا المستخدمين.
+            
+            ">
+                We collect personal information from you when you use our services, including your name, email address, IP address, and usage data. This helps us improve our services and offer a better experience. For example, the data we collect allows us to track your usage patterns and make our website more user-friendly by optimizing load times and layout.
+
+The information collected may also include non-personal data, such as your browser type, device information, and time spent on our platform. This data allows us to troubleshoot any technical issues, improve site functionality, and better tailor our content to meet your needs. We collect this data automatically through cookies and similar tracking technologies.
+
+In some cases, you may voluntarily provide us with additional information, such as feedback or responses to surveys. This data allows us to improve our customer service and enhance user satisfaction.
+            </p>
+        </div>
+
+        <div class="terms-item">
+            <h3 id="dataUsageTitle" data-ar="استخدام البيانات">Data Usage</h3>
+            <p id="dataUsageContent" data-ar="تُستخدم المعلومات التي نجمعها لتخصيص تجربتك، ومعالجة المعاملات، وتحسين خدمة العملاء. نحن لا نشارك معلوماتك مع أطراف ثالثة إلا إذا كان ذلك ضروريًا لتقديم الخدمات. تسمح لنا هذه المعلومات بتحسين تفاعلاتك مع منصتنا من خلال ضمان معالجة طلباتك بشكل أسرع، وتقديم المحتوى المناسب، وتحسين جودة الخدمة العامة.
+
+            على سبيل المثال، قد نستخدم المعلومات لتذكر تفضيلاتك، مثل إعدادات اللغة، حتى لا تضطر إلى إعادة تعيينها في كل مرة تزور فيها موقعنا. بالإضافة إلى ذلك، قد نستخدم البيانات لحل المشكلات التقنية والرد على استفسارات العملاء بشكل أكثر كفاءة.
+            
+            على الرغم من أننا لا نشارك معلوماتك الشخصية مع أطراف ثالثة لأغراض التسويق، فقد نتعاون مع مقدمي الخدمات الذين يساعدوننا في معالجة المعاملات أو توفير بعض ميزات خدماتنا. يُلزم هؤلاء مقدمو الخدمات الثالثين بالامتثال لسياسات الخصوصية الخاصة بنا والحفاظ على سرية بياناتك.">
+                The information we collect is used to personalize your experience, process transactions, and improve customer service. We do not share your information with third parties except where necessary to provide services. This information allows us to enhance your interactions with our platform by ensuring faster processing of your requests, providing relevant content, and improving overall service quality.
+
+For example, we may use the information to remember your preferences, such as language settings, so you don’t have to reset them every time you visit our site. Additionally, we may use the data to resolve technical issues and respond to customer inquiries more efficiently.
+
+While we do not share your personal information with third parties for marketing purposes, we may collaborate with service providers who help us process transactions or provide certain features of our services. These third-party service providers are obligated to comply with our privacy policies and maintain the confidentiality of your data.
+            </p>
+        </div>
+
+        <div class="terms-item">
+            <h3 id="cookiesTitle" data-ar="الكوكيز">Cookies</h3>
+            <p id="cookiesContent" data-ar="يستخدم موقعنا الإلكتروني ملفات تعريف الارتباط (الكوكيز) لتحسين تجربتك. الكوكيز هي ملفات صغيرة تُخزن على جهازك تساعدنا في فهم كيفية استخدامك لموقعنا. هذه الكوكيز تمكننا من تذكر تفضيلاتك، مثل إعدادات اللغة أو المظهر، وتقديم تجربة أكثر تخصيصًا. من خلال جمع بيانات الاستخدام، تساعدنا الكوكيز في تحسين أداء موقعنا، بما في ذلك تسريع أوقات التحميل وتقديم محتوى أكثر ملاءمة.
+
+            يمكنك تعطيل الكوكيز من خلال إعدادات متصفحك. ومع ذلك، يرجى ملاحظة أن تعطيل الكوكيز قد يؤثر على تجربتك في الموقع ويحد من بعض الوظائف. على سبيل المثال، قد لا تعمل بعض الميزات كما هو مقصود، أو قد تحتاج إلى تسجيل الدخول مرة أخرى.
+            
+            نستخدم كل من الكوكيز الخاصة بالموقع، التي يتم تعيينها من قبل موقعنا، والكوكيز الخاصة بالأطراف الثالثة، التي يتم تعيينها من قبل خدمات خارجية مثل منصات التحليلات أو الإعلان. قد تتعقب هذه الكوكيز الخاصة بالأطراف الثالثة نشاطك عبر مواقع الإنترنت المختلفة لتقديم إعلانات أو خدمات مخصصة.
+            
+            ">
+                Our website uses cookies to enhance your experience. Cookies are small files stored on your device that help us understand how you use our site. These cookies allow us to remember your preferences, such as language or theme settings, and provide you with a more personalized experience. By collecting usage data, cookies help us improve the performance of our site, including faster load times and more relevant content.
+
+You can disable cookies in your browser settings. However, please note that disabling cookies may affect your user experience and limit certain functionalities of our website. For instance, some features may not work as intended, or you may need to log in repeatedly.
+
+We use both first-party cookies, which are set by our site, and third-party cookies, which are set by external services such as analytics or advertising platforms. These third-party cookies may track your browsing activity across different websites to offer personalized ads or services.
+            </p>
+        </div>
+
+        <div class="terms-item">
+            <h3 id="dataSecurityTitle" data-ar="أمان البيانات">Data Security</h3>
+            <p id="dataSecurityContent" data-ar="نستخدم مجموعة متنوعة من تدابير الأمان لحماية معلوماتك الشخصية. يشمل ذلك التشفير، وجدران الحماية، والخوادم الآمنة. تضمن هذه التقنيات تخزين بياناتك ونقلها بشكل آمن. نحن نتخذ احتياطات معقولة لحماية بياناتك الشخصية من الوصول غير المصرح به أو التعديل أو التدمير.
+
+            ومع ذلك، يرجى العلم أنه لا توجد طريقة لنقل البيانات عبر الإنترنت آمنة بنسبة 100%. على الرغم من أننا نسعى لحماية معلوماتك، إلا أننا لا نستطيع ضمان الأمان التام. من المهم أن تتخذ أيضًا تدابير لحماية معلوماتك الشخصية، مثل الحفاظ على سرية بيانات الدخول الخاصة بك وتسجيل الخروج من حسابك عند استخدام الأجهزة العامة أو المشتركة.
+            
+            في حالة حدوث خرق للبيانات، سنقوم بإعلامك وفقًا للقوانين المعمول بها ونتخذ الإجراءات المناسبة للتخفيف من المخاطر المحتملة.">
+                We use a variety of security measures to protect your personal information. This includes encryption, firewalls, and secure servers. These technologies ensure that your data is securely stored and transmitted. We take reasonable precautions to safeguard your personal data from unauthorized access, alteration, or destruction.
+
+However, please be aware that no method of data transmission over the internet is 100% secure. While we strive to protect your information, we cannot guarantee complete security. It is important for you to also take measures to protect your personal information, such as keeping your login credentials private and logging out of your account when using public or shared devices.
+
+In the event of a data breach, we will notify you in accordance with applicable laws and take appropriate steps to mitigate the potential risks.
+            </p>
+        </div>
+
+        <div class="terms-item">
+            <h3 id="thirdPartyTitle" data-ar="الخدمات التابعة لجهات خارجية">Third-Party Services</h3>
+            <p id="thirdPartyContent" data-ar="قد تحتوي خدماتنا على روابط إلى مواقع إلكترونية لأطراف ثالثة. نحن غير مسؤولين عن ممارسات الخصوصية لهذه المواقع. لهذه المواقع سياسات خصوصية خاصة بها، ونشجعك على مراجعتها قبل مشاركة أي معلومات شخصية. بينما نبذل جهودًا للربط فقط مع المواقع الموثوقة، لا يمكننا التحكم في محتوى أو ممارسات المواقع الخارجية.
+
+            إذا قررت زيارة موقع إلكتروني تابع لطرف ثالث، ستكون بياناتك خاضعة لسياسات الخصوصية الخاصة بهم وليس لسياساتنا. نحن غير مسؤولين عن حماية أو استخدام أي معلومات تقدمها لمواقع الأطراف الثالثة.">
+                Our services may contain links to third-party websites. We are not responsible for the privacy practices of these third-party sites. These websites have their own privacy policies, and we encourage you to review them before sharing any personal information. While we make efforts to link only to reputable sites, we cannot control the content or practices of external sites.
+
+If you choose to visit a third-party website, your data will be subject to their privacy policies, not ours. We are not liable for the protection or use of any information you provide to third-party websites.
+            </p>
+        </div>
+
+        <div class="terms-item">
+            <h3 id="userRightsTitle" data-ar="حقوق المستخدم">User Rights</h3>
+            <p id="userRightsContent" data-ar="كـ مستخدم لخدمات InVision، لديك حقوق معينة محمية بموجب قوانين حماية البيانات. تمنحك هذه الحقوق مزيدًا من السيطرة على كيفية معالجة معلوماتك الشخصية، وتضمن أنك يمكن أن تدير بياناتك بالطريقة التي تتماشى مع تفضيلاتك. من المهم فهم هذه الحقوق للحفاظ على خصوصيتك وأمانك أثناء استخدامك لخدماتنا. في ما يلي نوضح حقوقك المحددة وكيف يمكنك ممارستها.
+
+            الوصول إلى المعلومات الشخصية: لديك الحق في طلب الوصول إلى البيانات الشخصية التي نحتفظ بها عنك. يشمل ذلك معلومات مثل اسمك، عنوان بريدك الإلكتروني، عنوان الـ IP، وأي بيانات أخرى قد نجمعها. إذا كنت ترغب في معرفة ما هي المعلومات التي لدينا عنك، يمكنك تقديم طلب، وسنوفر لك نسخة من هذه البيانات بتنسيق منظم، شائع الاستخدام، وقابل للقراءة الآلية.
+            
+            الحق في تعديل أو تصحيح المعلومات: إذا لاحظت أن أيًا من البيانات الشخصية التي لدينا عنك غير دقيقة أو غير مكتملة، لديك الحق في طلب تصحيح أو تحديث هذه المعلومات. هذا يضمن أن تظل بياناتك دقيقة ومحدثة، وهو أمر بالغ الأهمية لتقديم خدمات مخصصة وفعالة.
+            
+            الحق في الحذف (الحق في النسيان): لديك الحق في طلب حذف معلوماتك الشخصية في أي وقت. إذا لم تعد ترغب في استخدام خدماتنا أو أردت التأكد من أن بياناتك تم حذفها بالكامل من أنظمتنا، يمكنك طلب مسح بياناتك الشخصية. هذا الحق ليس مطلقًا، وقد توجد حالات يجب فيها علينا الاحتفاظ ببعض البيانات لأسباب قانونية أو تجارية، لكن في معظم الحالات سنحترم طلبك.
+            
+            الحق في تقييد معالجة البيانات: في بعض الحالات، يمكنك طلب تقييد معالجة بياناتك الشخصية. هذا يعني أنه، بينما يمكننا تخزين بياناتك، فإننا لن نستخدمها أو نعالجها لأغراض محددة. يمكن ممارسة هذا الحق عندما تعتقد أن البيانات غير دقيقة، أو أن المعالجة غير قانونية، أو أنك اعترضت على معالجة بياناتك.
+            
+            الحق في الاعتراض على معالجة البيانات: لديك أيضًا الحق في الاعتراض على معالجة بياناتك الشخصية. إذا كنا نعالج بياناتك بناءً على مصالح مشروعة، يمكنك تحدي تلك المعالجة. بالإضافة إلى ذلك، إذا كنا نستخدم بياناتك لأغراض التسويق المباشر، يمكنك إلغاء الاشتراك في هذه الاتصالات في أي وقت.
+            
+            الحق في قابلية نقل البيانات: لديك الحق في تلقي معلوماتك الشخصية بتنسيق منظم، شائع الاستخدام، وقابل للقراءة الآلية، ونقل هذه البيانات إلى مزود خدمة آخر دون عوائق. ينطبق هذا الحق فقط على البيانات التي قدمتها لنا والتي تتم معالجتها بناءً على موافقتك أو عقد.
+            
+            الحق في سحب الموافقة: إذا كنا نعتمد على موافقتك لمعالجة بياناتك الشخصية، لديك الحق في سحب تلك الموافقة في أي وقت. لن يؤثر سحب الموافقة على مشروعية المعالجة التي تمت قبل سحب الموافقة. يمكنك سحب الموافقة من خلال الآليات المتوفرة لدينا، وسنتأكد من أنه لن يتم معالجة بياناتك للأغراض التي تم إعطاء الموافقة عليها سابقًا.
+            
+            ممارسة حقوقك: لممارسة أي من هذه الحقوق، يرجى الاتصال بفريق الدعم لدينا من خلال معلومات الاتصال الواردة في قسم اتصل بنا في سياسة الخصوصية هذه. سنرد على طلبك في الوقت المحدد ووفقًا للقانون المعمول به.">
+                As a user of InVision, you have certain rights that are protected under data protection laws. These rights give you more control over how your personal information is handled and ensure that you can manage your data in a way that aligns with your preferences. Understanding these rights is important for maintaining your privacy and security while using our services. Below, we outline your specific rights and how you can exercise them.
+
+Access to Personal Information: You have the right to request access to the personal data that we hold about you. This includes information such as your name, email address, IP address, and any other data we may collect. If you want to know what information we have stored about you, you can submit a request, and we will provide you with a copy of this data in a structured, commonly used, and machine-readable format.
+
+Right to Modify or Correct Information: If you notice that any of the personal data we have about you is inaccurate or incomplete, you have the right to request corrections or updates to this information. This ensures that your data remains accurate and up to date, which is critical for providing you with personalized and efficient services.
+
+Right to Deletion (Right to be Forgotten): You have the right to request the deletion of your personal information at any time. If you no longer wish to use our services or want to ensure that your data is completely removed from our systems, you can request that we erase your personal data. This right is not absolute, and there may be situations where we need to retain certain data for legal or business reasons, but in most cases, we will honor your request.
+
+Right to Restrict Data Processing: In some cases, you may request that we restrict the processing of your personal data. This means that, while we can still store your data, we will not actively use or process it for any specific purposes. This right can be exercised when you believe the data is inaccurate, the processing is unlawful, or you have objected to the processing of your data.
+
+Right to Object to Data Processing: You also have the right to object to the processing of your personal data. If we are processing your data based on legitimate interests, you can challenge that processing. Additionally, if we are using your data for direct marketing purposes, you can opt out of such communications at any time.
+
+Right to Data Portability: You have the right to receive your personal information in a structured, commonly used, and machine-readable format, and to transmit this data to another service provider without hindrance. This right applies only to data that you have provided to us and that is processed based on your consent or a contract.
+
+Right to Withdraw Consent: If we rely on your consent for processing your personal data, you have the right to withdraw that consent at any time. This will not affect the lawfulness of any processing that occurred prior to your withdrawal of consent. You can withdraw consent through our provided mechanisms, and we will ensure that your data is no longer processed for the purposes for which consent was previously given.
+
+Exercising Your Rights: To exercise any of these rights, please contact our support team at the contact information provided in the "Contact Us" section of this privacy policy. We will respond to your request within a reasonable timeframe and in accordance with applicable law.
+            </p>
+        </div>
+
+        <div class="terms-item">
+            <h3 id="dataRetentionTitle" data-ar="الاحتفاظ بالبيانات">Data Retention</h3>
+            <p id="dataRetentionContent" data-ar="في InVision، نأخذ تخزين واحتفاظ بياناتك الشخصية على محمل الجد. نحن نهدف إلى الاحتفاظ بمعلوماتك الشخصية طالما كان ذلك ضروريًا لتحقيق الأغراض التي تم جمعها من أجلها، وفقًا لهذه السياسة الخصوصية. في ما يلي نوضح نهجنا في الاحتفاظ بالبيانات والعوامل التي تؤثر على مدة الاحتفاظ بمعلوماتك.
+
+            فترة الاحتفاظ استنادًا إلى الغرض: سنحتفظ بمعلوماتك الشخصية فقط طالما كانت ضرورية لتحقيق الأغراض التي تم جمعها من أجلها، كما هو موضح في سياسة الخصوصية هذه. يشمل ذلك استخدام بياناتك لتقديم الخدمات، وتحسين تجربتك، ومعالجة المعاملات، والامتثال للمتطلبات القانونية. بمجرد أن تصبح البيانات غير ضرورية لهذه الأغراض، سنقوم بحذفها أو إخفائها بطريقة آمنة، وفقًا لنوع البيانات واحتياجاتنا التجارية.
+            
+            المتطلبات القانونية والتنظيمية: قد توجد حالات يُطلب منا فيها قانونًا الاحتفاظ ببعض البيانات لفترة أطول. على سبيل المثال، إذا كانت قوانين الضرائب أو اللوائح المالية تنص على ضرورة الاحتفاظ بالسجلات المالية لفترة معينة، فإننا سنلتزم بتلك الالتزامات. قد نحتاج أيضًا للاحتفاظ بالبيانات لأغراض قانونية أو للامتثال لأي تحقيقات حكومية أو تدقيق تنظيمي.
+            
+            حذف الحساب وإزالة البيانات: إذا قررت حذف حسابك أو طلبت منا إزالة بياناتك الشخصية، سنقوم بذلك في الوقت المناسب. ومع ذلك، كما تم ذكره سابقًا، قد نحتفظ ببعض المعلومات وفقًا لالتزاماتنا القانونية أو لأغراض تجارية مشروعة. يشمل ذلك الحالات التي نحتاج فيها للاحتفاظ بالبيانات لمنع الاحتيال، أو تنفيذ الاتفاقيات، أو حل النزاعات.
+            
+            إخفاء البيانات: في بعض الحالات، قد نقوم بإخفاء هوية بياناتك الشخصية. هذا يعني أننا نقوم بإزالة أو تعديل المعلومات التي يمكن أن تحدد هويتك بحيث لا يمكن استخدامها لتتبعك أو التعرف عليك كفرد. قد يتم الاحتفاظ بالبيانات المخفية لأغراض إحصائية أو تحليلية أو بحثية لأنها لم تعد قابلة للتعرف على الهوية.
+            
+            مراجعة ممارسات الاحتفاظ بالبيانات: نقوم بمراجعة ممارسات الاحتفاظ بالبيانات لدينا بشكل دوري لضمان امتثالنا للمتطلبات القانونية والحفاظ على أعلى معايير حماية البيانات. إذا وجدنا أن أي بيانات لم تعد ضرورية لعملياتنا أو أننا تجاوزنا فترة الاحتفاظ المحددة، سنتخذ الإجراءات المناسبة لحذف تلك البيانات أو إخفائها.
+            
+            التخلص من البيانات: عندما لا نعد بحاجة للاحتفاظ ببياناتك الشخصية، نتخذ خطوات لضمان التخلص الآمن منها. قد يتضمن ذلك حذف البيانات الإلكترونية بأمان، أو الكتابة فوق وسائط التخزين، أو تمزيق الوثائق الورقية بشكل آمن. نحن نسعى لمنع الوصول غير المصرح به إلى بياناتك خلال عملية التخلص منها.">
+                At InVision, we take the storage and retention of your personal data seriously. We aim to retain your personal information for as long as necessary to fulfill the purposes for which it was collected, in accordance with this privacy policy. Below, we outline our approach to data retention and the factors that influence how long we keep your information.
+
+Retention Period Based on Purpose: We will retain your personal information only for as long as necessary to fulfill the purposes outlined in this privacy policy. This includes using your data for providing services, improving your experience, processing transactions, and complying with legal requirements. Once the data is no longer needed for these purposes, we will securely delete or anonymize it, depending on the type of data and our business needs.
+
+Legal and Regulatory Requirements: There may be situations where we are required by law to retain certain data for a longer period. For example, if applicable tax laws or financial regulations require us to retain financial records for a certain number of years, we will comply with those obligations. Similarly, we may need to retain data for legal disputes or to comply with any government investigations or regulatory audits.
+
+Account Deletion and Data Removal: If you choose to delete your account or request that we remove your personal data, we will do so in a timely manner. However, as mentioned earlier, we may retain some information in accordance with our legal obligations or for legitimate business purposes. This includes cases where we need to retain data to prevent fraud, enforce agreements, or resolve disputes.
+
+Data Anonymization: In some cases, we may anonymize your personal data. This means that we remove or alter information that can identify you, so that it can no longer be used to track or identify you as an individual. Anonymized data may still be retained for statistical, analytical, or research purposes, as it is no longer personally identifiable.
+
+Reviewing Data Retention Practices: We regularly review our data retention practices to ensure that we are complying with legal requirements and maintaining a high standard of data protection. If we find that any data is no longer necessary for our operations or that we have exceeded the retention period, we will take appropriate action to delete or anonymize that data.
+
+Data Disposal: When we no longer need to retain your personal data, we take steps to ensure its secure disposal. This may involve securely deleting electronic data, overwriting storage media, or securely shredding paper records. We strive to prevent unauthorized access to your data during the disposal process.
+            </p>
+        </div>
+
+        <div class="terms-item">
+            <h3 id="policyChangesTitle" data-ar="تغييرات السياسة">Policy Changes</h3>
+            <p id="policyChangesContent" data-ar="قد نقوم بتحديث سياسة الخصوصية هذه من وقت لآخر لتعكس التغييرات في ممارساتنا أو خدماتنا أو التزاماتنا القانونية. مع تطور شركتنا ونموها، قد نحتاج إلى تعديل كيفية جمع واستخدام وحماية بياناتك الشخصية. نحن ملتزمون بضمان أنك على دراية بهذه التغييرات وأنك تستطيع الوصول بسهولة إلى النسخة الأحدث من سياسة الخصوصية الخاصة بنا.
+
+            إشعار بالتغييرات: عندما نجري تغييرات كبيرة على سياسة الخصوصية هذه، سننشر النسخة المحدثة على هذه الصفحة، وستعكس تاريخ التحديث في أسفل السياسة تاريخ التحديث الأخير. نحثك على مراجعة سياسة الخصوصية هذه بشكل دوري للبقاء على اطلاع حول كيفية تعاملنا مع معلوماتك الشخصية.
+            
+            الموافقة على التغييرات: من خلال استمرارك في استخدام خدماتنا بعد إجراء أي تغييرات على سياسة الخصوصية هذه، فإنك تشير إلى موافقتك على الشروط المحدثة. إذا لم توافق على التغييرات، يمكنك اختيار التوقف عن استخدام خدماتنا أو ممارسة حقك في طلب حذف بياناتك الشخصية.
+            
+            إبلاغك بالتغييرات: في بعض الحالات، وخاصة عندما تكون التغييرات كبيرة أو تؤثر على حقوقك، قد نتواصل معك مباشرة لإبلاغك بالتحديثات. قد يتم ذلك عبر البريد الإلكتروني أو إشعار على المنصة، اعتمادًا على تفضيلاتك وطبيعة التغيير.
+            
+            الشفافية في التغييرات: نسعى لجعل التحديثات في السياسة واضحة وشفافة قدر الإمكان. سيتم إبلاغك بأي تغييرات بطريقة تسهل عليك فهم كيفية تأثير التحديثات على بياناتك وخصوصيتك. إذا كانت التغييرات تتعلق بخدمة أو ميزة جديدة نقدمها، سنقدم معلومات إضافية حول كيفية التعامل مع بياناتك.
+            
+            مراجعة وقبول أحدث سياسة: لضمان أنك على دراية بأحدث ممارساتنا المتعلقة بالخصوصية، نوصي بمراجعة سياسة الخصوصية هذه بين الحين والآخر. ستكون النسخة الأحدث، مع تاريخ التحديث، متاحة دائمًا على موقعنا الإلكتروني. إذا أجرينا تغييرات كبيرة، قد يتعين عليك قبول الشروط الجديدة قبل مواصلة استخدام خدماتنا.">
+                InVision may update this privacy policy from time to time to reflect changes in our practices, services, or legal obligations. As our company grows and evolves, we may need to modify how we collect, use, and protect your personal data. We are committed to ensuring that you are aware of these changes and that you can easily access the most up-to-date version of our privacy policy.
+
+Notification of Changes: When we make significant changes to this privacy policy, we will post an updated version on this page, and the "Last Updated" date at the bottom of the policy will reflect the date of the most recent update. We encourage you to review this privacy policy periodically to stay informed about how we are handling your personal information.
+
+Consent to Changes: By continuing to use our services after any changes are made to this privacy policy, you are indicating your consent to the updated terms. If you do not agree with the changes, you may choose to stop using our services or exercise your right to request the deletion of your personal data.
+
+Communication of Changes: In some cases, especially when the changes are significant or affect your rights, we may contact you directly to notify you of the updates. This may be done through email or a notification on the platform, depending on your preferences and the nature of the change.
+
+Transparency in Changes: We strive to make the policy updates as clear and transparent as possible. Any changes will be communicated in a way that makes it easy for you to understand how the updates may affect your data and privacy. If the changes are related to a new service or feature that we offer, we will provide additional information about how your data will be handled.
+
+Reviewing and Accepting the Latest Policy: To ensure that you are aware of our most current privacy practices, we recommend that you periodically review this privacy policy. The most recent version, along with the date of the update, will always be available on our website. If we make any substantial changes, you may be required to accept the new terms before continuing to use our services.
+            </p>
+        </div>
+
+    </section>
+
+    <footer>
+        <p>InVision © 2025. All rights reserved.</p>
+     
+    </footer>
+
+    <script>
+        // Language toggle function
+        document.getElementById('languageIcon').addEventListener('click', function() {
+            document.getElementById('languageDropdown').classList.toggle('show');
+        });
+
+        // Language change event listener
+        document.getElementById('langEnglish').addEventListener('click', function() {
+            document.querySelectorAll('[data-ar]').forEach(function(element) {
+                element.innerHTML = element.getAttribute('data-en');
+            });
+            document.getElementById('langArabic').style.display = 'block';
+            document.getElementById('langEnglish').style.display = 'none';
+            document.getElementById('languageDropdown').classList.remove('show');
+        });
+
+        document.getElementById('langArabic').addEventListener('click', function() {
+            document.querySelectorAll('[data-ar]').forEach(function(element) {
+                element.innerHTML = element.getAttribute('data-ar');
+            });
+            document.getElementById('langArabic').style.display = 'none';
+            document.getElementById('langEnglish').style.display = 'block';
+            document.getElementById('languageDropdown').classList.remove('show');
+        });
+
+    </script>
+</body>
+
+</html>
